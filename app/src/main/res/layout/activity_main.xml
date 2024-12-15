@@ -28,6 +28,7 @@
         android:gravity="center">
         <Button
             android:id="@+id/startbtn"
+            android:backgroundTint="#3789CA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Start Service">
@@ -35,6 +36,7 @@
         <Button
             android:id="@+id/stopbtn"
             android:layout_width="wrap_content"
+            android:backgroundTint="#3789CA"
             android:layout_height="wrap_content"
             android:layout_marginLeft="9dp"
             android:text="End Service">
