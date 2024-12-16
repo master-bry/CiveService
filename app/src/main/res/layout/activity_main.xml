@@ -45,4 +45,20 @@
 
     </LinearLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="100dp"
+        android:backgroundTint="#3789CA"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:text="Camera" />
+
+    <!-- add ImageView to display the captured image -->
+    <ImageView
+        android:id="@+id/click_image"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp" />
+     </LinearLayout>
